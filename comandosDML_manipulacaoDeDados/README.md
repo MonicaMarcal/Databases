@@ -1,9 +1,14 @@
-# AlumniONE BR
-## conteudos gratuitos fornecidos pela oracle next education
+<h1 align="center">
+  AlumniONE BR
+</h1>
+<p align="center">Alumni ONE é a comunidade de ex alunos do programa ONE - Oracle Next Education</p>
 
-### Linguagem:
+![](./.github/one.png)
+
+
+### Linguagem utilizada:
 - SQL
 
-### Software:
+### Softwares utilizados:
 - MySQL Server
 - MySQL Workbench
