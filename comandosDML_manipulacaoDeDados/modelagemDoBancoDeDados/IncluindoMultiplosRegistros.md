@@ -73,3 +73,17 @@ Vamos conferir a tabela de produtos. Digite e execute:
 SELECT * FROM produtos;
 ```
 <img src="./images/produtos.png" width="450" ><br>
+
+<br>
+
+Incluindo todos os clientes na tabela CLIENTES baseados nos registros da tabela TABELA_DE_CLIENTES da base SUCOS_VENDAS.
+
+```
+INSERT INTO clientes
+(CPF,NOME,ENDERECO,BAIRRO,CIDADE,ESTADO,CEP,DATA_NASCIMENTO,IDADE,SEXO,LIMITE_CREDITO,VOLUME_COMPRA,PRIMEIRA_COMPRA)
+
+SELECT CPF, NOME, ENDERECO_1 AS ENDERECO, BAIRRO, CIDADE, ESTADO, CEP,DATA_DE_NASCIMENTO AS  DATA_NASCIMENTO, IDADE, SEXO,LIMITE_DE_CREDITO AS LIMITE_CREDITO, VOLUME_DE_COMPRA AS VOLUME_COMPRA,PRIMEIRA_COMPRA 
+ FROM sucos_vendas.tabela_de_clientes 
+ WHERE CPF NOT IN (SELECT CPF FROM clientes);
+
+```
