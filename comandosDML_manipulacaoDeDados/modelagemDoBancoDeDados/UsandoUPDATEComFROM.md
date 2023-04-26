@@ -48,7 +48,7 @@ SELECT * FROM VENDEDORES A
 INNER JOIN SUCOS_VENDAS.TABELA_DE_VENDEDORES B
 ON A.MATRICULA = SUBSTRING(B.MATRICULA,3,3)
 ```
-A junção dos campo com a atualização ficou assim:
+A junção dos campo com a atualização ficou assim:<br>
 <img src="./images/from6.png" width="450" ><br>
 <img src="./images/from7.png" width="450" ><br>
 
