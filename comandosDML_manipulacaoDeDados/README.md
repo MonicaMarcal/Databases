@@ -13,4 +13,4 @@
 - MySQL Server
 - MySQL Workbench
 
-###Observação: Este curso é prático, siga a sequência apartir do 1° commit para melhores resultados.
+### Observação: Este curso é prático, siga a sequência apartir do 1° commit para melhores resultados.
